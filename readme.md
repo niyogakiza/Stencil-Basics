@@ -1,4 +1,7 @@
-![screen shot ]()
+![button to open modal](/Screen%20Shot%202018-04-22%20at%2012.09.11.png)
+![show modal](/Screen%20Shot%202018-04-22%20at%2012.09.19.png)
+![show options](/Screen%20Shot%202018-04-22%20at%2012.09.27.png)
+![close options](/master/Screen%20Shot%202018-04-22%20at%2012.09.32.png)
 
 # Stencil App Starter
 
