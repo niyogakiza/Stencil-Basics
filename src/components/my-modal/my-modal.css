@@ -1,0 +1,22 @@
+my-modal {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #ccc;
+    background-color: white;
+    position: fixed;
+    top: 30%;
+    width: 350px;
+    left: calc(50% - 175px);
+    z-index: 1000;
+    padding: 20px;
+}
+
+button{
+  background-color: grey;
+  color: white;
+  border: none;
+  outline: none;
+  font: inherit;
+}
+
+

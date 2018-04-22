@@ -127,4 +127,110 @@ declare global {
   }
 }
 
+
+declare global {
+
+  namespace StencilComponents {
+    interface MyBackdrop {
+
+    }
+  }
+
+  interface HTMLMyBackdropElement extends StencilComponents.MyBackdrop, HTMLStencilElement {}
+
+  var HTMLMyBackdropElement: {
+    prototype: HTMLMyBackdropElement;
+    new (): HTMLMyBackdropElement;
+  };
+  interface HTMLElementTagNameMap {
+    'my-backdrop': HTMLMyBackdropElement;
+  }
+  interface ElementTagNameMap {
+    'my-backdrop': HTMLMyBackdropElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'my-backdrop': JSXElements.MyBackdropAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface MyBackdropAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+
+  namespace StencilComponents {
+    interface MyModalBundle {
+      'content': string;
+      'open': () => void;
+      'title': string;
+    }
+  }
+
+  interface HTMLMyModalBundleElement extends StencilComponents.MyModalBundle, HTMLStencilElement {}
+
+  var HTMLMyModalBundleElement: {
+    prototype: HTMLMyModalBundleElement;
+    new (): HTMLMyModalBundleElement;
+  };
+  interface HTMLElementTagNameMap {
+    'my-modal-bundle': HTMLMyModalBundleElement;
+  }
+  interface ElementTagNameMap {
+    'my-modal-bundle': HTMLMyModalBundleElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'my-modal-bundle': JSXElements.MyModalBundleAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface MyModalBundleAttributes extends HTMLAttributes {
+      'content'?: string;
+      'title'?: string;
+    }
+  }
+}
+
+
+declare global {
+
+  namespace StencilComponents {
+    interface MyModal {
+      'content': string;
+      'open': () => void;
+      'title': string;
+    }
+  }
+
+  interface HTMLMyModalElement extends StencilComponents.MyModal, HTMLStencilElement {}
+
+  var HTMLMyModalElement: {
+    prototype: HTMLMyModalElement;
+    new (): HTMLMyModalElement;
+  };
+  interface HTMLElementTagNameMap {
+    'my-modal': HTMLMyModalElement;
+  }
+  interface ElementTagNameMap {
+    'my-modal': HTMLMyModalElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'my-modal': JSXElements.MyModalAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface MyModalAttributes extends HTMLAttributes {
+      'content'?: string;
+      'onOnClose'?: (event: CustomEvent) => void;
+      'title'?: string;
+    }
+  }
+}
+
 declare global { namespace JSX { interface StencilJSX {} } }
